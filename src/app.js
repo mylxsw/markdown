@@ -27,7 +27,7 @@ var Editor = React.createClass({
                 <div className="editor">
                     <textarea onChange={this.handleChange} onKeyDown={this.handleKeydown} ref="editor" value={this.state.value} />
                 </div>
-                <div className="preview" dangerouslySetInnerHTML={{__html: marked(this.state.value, {sanitize: true})}} />
+                <div className="preview am-article" dangerouslySetInnerHTML={{__html: marked(this.state.value, {sanitize: true})}} />
             </div>
         );
     }

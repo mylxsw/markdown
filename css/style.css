@@ -1,12 +1,19 @@
+
+#editor {
+    margin: 10px;
+    min-height: 500px;
+}
 .editor textarea {
-    width: 49%;
-    height: 500px;
+    width: 45%;
     float: left;
+    min-height: 500px;
+    padding: 10px;
+    /*border: none;*/
 }
 
 .preview {
-    width: 49%;
+    width: 45%;
     float: right;
-    border: 1px solid #ccc;
-    height: 500px;
+    min-height: 99%;
+    padding: 10px;
 }

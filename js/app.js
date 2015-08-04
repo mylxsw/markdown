@@ -27,7 +27,7 @@ var Editor = React.createClass({displayName: "Editor",
                 React.createElement("div", {className: "editor"}, 
                     React.createElement("textarea", {onChange: this.handleChange, onKeyDown: this.handleKeydown, ref: "editor", value: this.state.value})
                 ), 
-                React.createElement("div", {className: "preview", dangerouslySetInnerHTML: {__html: marked(this.state.value, {sanitize: true})}})
+                React.createElement("div", {className: "preview am-article", dangerouslySetInnerHTML: {__html: marked(this.state.value, {sanitize: true})}})
             )
         );
     }
