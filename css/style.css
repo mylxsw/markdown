@@ -1,0 +1,12 @@
+.editor textarea {
+    width: 49%;
+    height: 500px;
+    float: left;
+}
+
+.preview {
+    width: 49%;
+    float: right;
+    border: 1px solid #ccc;
+    height: 500px;
+}
